@@ -1,0 +1,134 @@
+/* Add any additional custom styles here if needed */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer {
+    background-color:#dd8f00; /* Orange color */
+    color: #fff; /* White text color for better contrast */
+    margin-top: 20px;
+}
+header {
+    background-color: #dd8f00; /* Orange color */
+}
+
+/* article {
+    width: 100%;
+} */
+
+.card {
+    max-width: 100%; /* Set your preferred maximum width for each card */
+    max-height: 100%;
+    margin: 0 auto; /* Center the cards */
+    margin-bottom: 20px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.card img {
+    position: relative;
+    width: 100%;
+    height: 300px; 
+    object-fit: contain;
+}
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card-title {
+    color: #873939; /* Your preferred font color */
+}
+
+.card-text {
+    color: #555; /* Another color for card text */
+}
+
+.amzn-link {
+    margin-top: 3%;
+}
+
+
+.card-text
+{
+    height: 100px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 10px 0 !important;
+}
+.card-title
+{
+    font-size: 30px;
+    min-height: 70px;
+    max-height: 70px;
+}
+@media (min-width: 992px) and (max-width:1200px)
+{
+.card-title
+{
+    font-size: 24px;
+}
+}
+@media (max-width:768px)
+{
+.card-title
+{
+    font-size: 20px;
+}
+}
+.card-text:last-child
+{
+    margin-bottom: unset;
+}
+
+.card-body {
+    background: #f6f6f6;
+}
+
+.card:hover {
+    background: unset;
+}
+
+.footer-class .row
+{
+    justify-content: center;
+}
+.footer-class
+{
+    background-color: #dd8f00;
+}
+.list-unstyled li a
+{
+    text-decoration: none;
+    color:#fff
+}
+.list-unstyled li a:hover
+{
+    text-decoration: none;
+    color:#fff
+}
+
+.other-blogs h5
+{
+    text-align: justify;
+}
+.social-media h5
+{
+    text-align: justify;
+}
+.list-unstyled 
+{
+    text-align: justify;
+}
