@@ -10,12 +10,12 @@ main {
 }
 
 footer {
-    background-color:#dd8f00; /* Orange color */
+    background-color:#0056a9; /* Orange color */
     color: #fff; /* White text color for better contrast */
     margin-top: 20px;
 }
 header {
-    background-color: #dd8f00; /* Orange color */
+    background-color: #0056a9; /* Orange color */
 }
 
 /* article {
@@ -49,11 +49,11 @@ h1, h2 {
 }
 
 .card-title {
-    color: #873939; /* Your preferred font color */
+    color: #000000; /* Your preferred font color */
 }
 
 .card-text {
-    color: #555; /* Another color for card text */
+    color: #000000; /* Another color for card text */
 }
 
 .amzn-link {
@@ -107,7 +107,7 @@ h1, h2 {
 }
 .footer-class
 {
-    background-color: #dd8f00;
+    background-color: #0056a9;
 }
 .list-unstyled li a
 {
