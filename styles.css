@@ -18,10 +18,6 @@ header {
     background-color: #0056a9; /* Orange color */
 }
 
-/* article {
-    width: 100%;
-} */
-
 .card {
     max-width: 100%; /* Set your preferred maximum width for each card */
     max-height: 100%;
@@ -60,14 +56,15 @@ h1, h2 {
     margin-top: 3%;
 }
 
-
 .card-text
 {
     height: 100px;
     overflow: hidden;
     text-align: justify;
     margin: 10px 0 !important;
+    line-height: 20px;
 }
+
 .card-title
 {
     font-size: 30px;
@@ -131,4 +128,11 @@ h1, h2 {
 .list-unstyled 
 {
     text-align: justify;
+}
+.social-media li
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    max-width: 100px;
 }
